@@ -1,0 +1,244 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Freshr - Manage and Deploy Your Apps</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma@0.9.3/css/bulma.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+    <style>
+        .hero-body {
+            background-color: #f5f5f5;
+        }
+        .feature-card {
+            transition: transform 0.3s ease;
+        }
+        .feature-card:hover {
+            transform: translateY(-10px);
+        }
+        .navbar, .button.is-primary {
+            background-color: #FF5722;
+            border-color: #FF5722;
+        }
+        .button.is-link {
+            background-color: #00BCD4;
+            border-color: #00BCD4;
+        }
+        .section {
+            padding: 3rem 1.5rem;
+        }
+    </style>
+</head>
+<body>
+    <!-- Header -->
+    <nav class="navbar" role="navigation" aria-label="main navigation">
+        <div class="navbar-brand">
+            <a class="navbar-item" href="#">
+                <img src="path/to/logo.png" alt="Freshr">
+            </a>
+            <a role="button" class="navbar-burger" aria-label="menu" aria-expanded="false" data-target="navbarMenu">
+                <span aria-hidden="true"></span>
+                <span aria-hidden="true"></span>
+                <span aria-hidden="true"></span>
+            </a>
+        </div>
+        <div id="navbarMenu" class="navbar-menu">
+            <div class="navbar-start">
+                <a class="navbar-item" href="#features">Features</a>
+                <a class="navbar-item" href="#pricing">Pricing</a>
+                <a class="navbar-item" href="#docs">Docs</a>
+            </div>
+            <div class="navbar-end">
+                <div class="navbar-item">
+                    <div class="buttons">
+                        <a class="button is-primary" href="#signin">
+                            <strong>Sign In</strong>
+                        </a>
+                        <a class="button is-light" href="#get-started">
+                            Get Started
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section class="hero is-medium is-light">
+        <div class="hero-body">
+            <div class="container">
+                <h1 class="title">
+                    Manage and deploy your apps seamlessly.
+                </h1>
+                <h2 class="subtitle">
+                    Freshr makes it easy to manage and deploy your apps with a simple and intuitive interface.
+                </h2>
+                <div class="buttons">
+                    <a class="button is-primary" href="#learn-more">Learn More</a>
+                    <a class="button is-link" href="#get-started">Get Started</a>
+                </div>
+                <figure class="image is-128x128">
+                    <img src="path/to/illustration.png" alt="Person working on a laptop">
+                </figure>
+            </div>
+        </div>
+    </section>
+
+    <!-- Trusted By Section -->
+    <section class="section">
+        <div class="container">
+            <h3 class="title has-text-centered">Trusted By</h3>
+            <div class="columns is-centered">
+                <div class="column is-narrow">
+                    <figure class="image is-64x64">
+                        <img src="path/to/tribe-logo.png" alt="Tribe">
+                    </figure>
+                </div>
+                <div class="column is-narrow">
+                    <figure class="image is-64x64">
+                        <img src="path/to/some-logo.png" alt="Some">
+                    </figure>
+                </div>
+                <div class="column is-narrow">
+                    <figure class="image is-64x64">
+                        <img src="path/to/network-logo.png" alt="Network">
+                    </figure>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Features Section -->
+    <section class="section" id="features">
+        <div class="container">
+            <h3 class="title has-text-centered">Great Power Comes</h3>
+            <h4 class="subtitle has-text-centered">With Great Responsibility</h4>
+            <div class="columns">
+                <div class="column">
+                    <div class="card feature-card">
+                        <div class="card-content">
+                            <div class="media">
+                                <div class="media-left">
+                                    <figure class="image is-48x48">
+                                        <img src="path/to/app-builder-icon.png" alt="App Builder">
+                                    </figure>
+                                </div>
+                                <div class="media-content">
+                                    <p class="title is-5">App Builder</p>
+                                    <p>Build and deploy your apps with ease.</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="column">
+                    <div class="card feature-card">
+                        <div class="card-content">
+                            <div class="media">
+                                <div class="media-left">
+                                    <figure class="image is-48x48">
+                                        <img src="path/to/cloud-integration-icon.png" alt="Cloud Integration">
+                                    </figure>
+                                </div>
+                                <div class="media-content">
+                                    <p class="title is-5">Cloud Integration</p>
+                                    <p>Seamlessly integrate with cloud services.</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="column">
+                    <div class="card feature-card">
+                        <div class="card-content">
+                            <div class="media">
+                                <div class="media-left">
+                                    <figure class="image is-48x48">
+                                        <img src="path/to/addons-plugins-icon.png" alt="Add-ons & Plugins">
+                                    </figure>
+                                </div>
+                                <div class="media-content">
+                                    <p class="title is-5">Add-ons & Plugins</p>
+                                    <p>Extend functionality with add-ons and plugins.</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Awesome Features Section -->
+    <section class="section">
+        <div class="container">
+            <div class="columns">
+                <div class="column is-half">
+                    <figure class="image">
+                        <img src="path/to/connect-people.png" alt="Connect with people">
+                    </figure>
+                </div>
+                <div class="column">
+                    <h3 class="title">Connect with people</h3>
+                    <p>Easily connect with your team and collaborate on projects.</p>
+                </div>
+            </div>
+            <div class="columns">
+                <div class="column">
+                    <h3 class="title">Collaborate easily</h3>
+                    <p>Work together in real-time with our collaboration tools.</p>
+                </div>
+                <div class="column is-half">
+                    <figure class="image">
+                        <img src="path/to/collaborate-easily.png" alt="Collaborate easily">
+                    </figure>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- An Intuitive App Section -->
+    <section class="section">
+        <div class="container">
+            <div class="columns is-vcentered">
+                <div class="column is-half">
+                    <h3 class="title">An Intuitive App</h3>
+                    <p>Our app is designed to be intuitive and easy to use, so you can focus on what matters most.</p>
+                </div>
+                <div class="column is-half">
+                    <figure class="image">
+                        <img src="path/to/intuitive-app.png" alt="Intuitive App">
+                    </figure>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Wait, There's More Section -->
+    <section class="section">
+        <div class="container">
+            <h3 class="title has-text-centered">Wait, There's More</h3>
+            <div class="columns is-multiline">
+                <div class="column is-3">
+                    <div class="card">
+                        <div class="card-content">
+                            <div class="media">
+                                <div class="media-left">
+                                    <figure class="image is-48x48">
+                                        <img src="path/to/customizable-icon.png" alt="Customizable">
+                                    </figure>
+                                </div>
+                                <div class="media-content">
+                                    <p class="title is-5">Customizable</p>
+                                    <p>Tailor the app to your needs.</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="column is-3">
+                    <div class="card">
+                        <div class="card-content">
+                            <div class="media">
+                                <div class="media-left">
+                                    <figure[_{{{CITATION{{{_1{](https://github.com/buribalazs/smooth-drag-order/tree/7b40d21d076c3e31765f61481f537beaf4c5ec9f/README.md)[_{{{CITATION{{{_2{](https://github.com/Dsaye/ProjetPhp/tree/7cc6429fa66f761956a09a5584c2c406c39e7012/RchercheCotisation.php)[_{{{CITATION{{{_3{](https://github.com/guilhermeUrcelino123/Portal-FakeAnalizer/tree/b919729632b60114f270c35c23f082800eff955a/teste.php)[_{{{CITATION{{{_4{](https://github.com/agriland/agriland/tree/538b43d9f20be4ac760235c5214a361a04bd8096/src%2Fheader.inc.php)[_{{{CITATION{{{_5{](https://github.com/CS6620-S21/Cloud-vSwitch/tree/5578f69c096ddace63d3799d565ce8d24cbae47d/web%2Fsrc%2Fcomponents%2Fdashboard%2FNavbar.js)[_{{{CITATION{{{_6{](https://github.com/inbit-tech/huaye-web/tree/6b06d3cd36772c1caf73eb964d65b463010073b8/resources%2Fviews%2Flayout%2Fnavigation%2Ftop.blade.php)[_{{{CITATION{{{_7{](https://github.com/BethuneClemence/vodBD/tree/f7c131a26fee23264616ec484bb73df8660828cc/ajouterFilms.php)[_{{{CITATION{{{_8{](https://github.com/trak2019z/soagg-tr/tree/d55a4e159b1ed7264cc7cd69e7ca941221383d8c/src%2Fmain%2Fresources%2Fstatic%2Fjs%2Fcomponents%2FTheHeader.js)[_{{{CITATION{{{_9{](https://github.com/Al-Fihriya-Academy/about-us/tree/1fa098d0beaf73bdaaa0bc479bf49f4748bf2d42/README.md)[_{{{CITATION{{{_10{](https://github.com/rccosta/wellness-club/tree/ff804a01d313f0326acc5e97a3254aebaf81db35/view%2Fbuild%2Franking.php)[_{{{CITATION{{{_11{](https://github.com/arifkhn46/soc/tree/b078fae8a49b3cfc03741fce7603d42681c81c2a/resources%2Fviews%2Fwelcome.blade.php)
